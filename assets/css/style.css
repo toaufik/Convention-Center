@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+section {
+    padding: 80px 0;
+}
+
+.banner-area {
+    padding: 0;
+}
+
+.carousel-item {
+    background-image: url('../img/banner.png');
+    background-position: center;
+    background-size: cover;
+    min-height: 600px;
+}
+
+.carousel-caption {
+    width: 640px;
+}
+
+.banner-title {
+    font-size: 48px;
+    line-height: 1.2;
+}
+
+.btn {
+    padding: 10px 40px;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 50px;
+}
+
+/* Pricing Area */
+
+.card-title {
+    font-size: 36px;
+    line-height: 46px;
+}
+
+.display-5 {
+    font-size: 28px;
+    line-height: 33px;
+}
+
+.badge {
+    font-size: 14px;
+    padding: 5px 10px;
+    top: -12px;
+    right: 12px;
+    z-index: 1;
+}
+
+i.bi.bi-check-circle-fill {
+    font-size: 18px;
+}
+
+
+/* FAQ area */
+
+.accordion-button {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+/* Footer Area */
+
+.app-col img {
+    width: 150px
+}
+
+@media (max-width: 767.98px) {
+
+    section {
+        padding: 60px 0;
+    }
+
+    .carousel-item {
+        min-height: 500px;
+    }
+    .banner-title {
+        font-size: 32px;
+        line-height: 1.2;
+    }
+    .carousel-caption {
+        width: auto;
+    }
+    .text-xs-center {
+        text-align: center;
+    }
+}
