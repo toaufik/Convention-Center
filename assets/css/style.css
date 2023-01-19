@@ -9,6 +9,21 @@ section {
     padding: 80px 0;
 }
 
+.btn {
+    padding: 10px 40px;
+}
+
+/* Nav Area */
+
+.nav-link {
+    transition: .3s'
+}
+.nav-link:hover {
+    color: #0D6EFD !important;
+}
+
+/* Banner Area */
+
 .banner-area {
     padding: 0;
 }
@@ -27,10 +42,6 @@ section {
 .banner-title {
     font-size: 48px;
     line-height: 1.2;
-}
-
-.btn {
-    padding: 10px 40px;
 }
 
 .carousel-indicators [data-bs-target] {
@@ -85,14 +96,18 @@ i.bi.bi-check-circle-fill {
     .carousel-item {
         min-height: 500px;
     }
+
     .banner-title {
         font-size: 32px;
         line-height: 1.2;
     }
+
     .carousel-caption {
         width: auto;
     }
+
     .text-xs-center {
         text-align: center;
     }
+
 }
